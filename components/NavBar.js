@@ -20,7 +20,7 @@ export default function NavBar() {
             <Link passHref href="/">
               <Nav.Link>New Directions</Nav.Link>
             </Link>
-            <Link passHref href="/new">
+            <Link passHref href="/member/new">
               <Nav.Link>New Gleek</Nav.Link>
             </Link>
             <Button variant="danger" onClick={signOut}>Sign Out</Button>
