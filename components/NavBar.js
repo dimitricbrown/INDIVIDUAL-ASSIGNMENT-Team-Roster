@@ -23,7 +23,7 @@ export default function NavBar() {
             <Link passHref href="/member/new">
               <Nav.Link>New Gleek</Nav.Link>
             </Link>
-            <Button variant="danger" onClick={signOut}>Sign Out</Button>
+            <Button variant="danger" onClick={signOut}>SING OUT</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
